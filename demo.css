@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    cursor: pointer;
+}
+.prev,.next{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.2s ease;
+}
+.prev:hover{
+    color: #fff;
+    border-color: rgb(0, 183, 254);
+    background-color: rgb(0, 183, 254);
+}
+.next:hover{
+    color: #fff;
+    border-color: rgb(0, 183, 254);
+    background-color: rgb(0, 183, 254);
+}
+.page{
+    display: flex;
+}
+.page .page-item{
+    list-style-type: none ;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.2s ease;
+}
+.page .page-item:hover{
+    color: #fff;
+    border-color: rgb(0, 183, 254);
+    background-color: rgb(0, 183, 254);
+}
+.page .item-active{
+    color: #fff;
+    border-color: rgb(0, 183, 254);
+    background-color: rgb(0, 183, 254);
+}
+.container .clear-mr{
+    margin-right: 0;
+}
+.page-search{
+    width: 31px;
+    height: 31px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 4px;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    margin-right: 10px;
+    /* cursor: pointer; */
+    outline: none;
+}
+.page-sub{
+    width: 31px;
+    height: 31px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+}
+.page-sub:hover{
+    background-color: rgb(0, 183, 254);
+    color: #fff;
+    border-color: rgb(0, 183, 254);
+}
